@@ -1,0 +1,14 @@
+<p appCustomeColor>home works!</p>
+
+
+<div>
+    <ul *ngFor="let item of backendData">
+        <li>
+            {{item.$class | removeHash}}
+        </li>
+        <li>
+            {{item.emial}}
+        </li>
+    </ul>
+
+</div>
